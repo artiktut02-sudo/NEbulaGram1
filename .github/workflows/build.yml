@@ -1,4 +1,4 @@
-name: Build NebulaGram
+name: Build NebulaGram APK
 
 on:
   workflow_dispatch:
@@ -10,7 +10,7 @@ permissions: write-all
 
 jobs:
   build:
-    name: Build NebulaGram APK
+    name: Build NebulaGram
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@main
